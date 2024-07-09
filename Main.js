@@ -15,7 +15,7 @@ fetch(FULL_URL)
     let player_Shoe = document.getElementById('player_Shoe');
     let length = data.table.rows.length;
 
-    console.log(data)
+    console.log(data.table)
     
     player_Name_title.innerHTML = data.table.rows[0].c[0].v;
     player_Shoe_title.innerHTML = data.table.rows[0].c[1].v;
